@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 下拉菜单样式 -->
+    <declare-styleable name="dropDownMenu">
+        <!--下划线颜色-->
+        <attr name="underlineColor" format="color"/>
+        <!--竖直分割线颜色-->
+        <attr name="dividerColor" format="color"/>
+        <!--选中颜色-->
+        <attr name="textSelectedColor" format="color"/>
+        <!--未选择颜色-->
+        <attr name="textUnSelectedColor" format="color"/>
+        <!--菜单背景颜色-->
+        <attr name="menuBackgroundColor" format="color"/>
+        <!--蒙版灰色-->
+        <attr name="maskColor" format="color"/>
+        <!--字体大小-->
+        <attr name="menuTextSize" format="dimension"/>
+        <!--选中时图标向下-->
+        <attr name="menuSelectedIcon" format="reference"/>
+        <!--未选中时图标向上-->
+        <attr name="menuUnSelectedIcon" format="reference"/>
+
+
+    </declare-styleable>
+</resources>
